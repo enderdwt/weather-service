@@ -1,0 +1,2 @@
+
+GET     /weather/latitude/:latitude/longitude/:longitude                           controllers.WeatherController.getWeather(latitude: Double, longitude: Double)
